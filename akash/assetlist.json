@@ -16,9 +16,9 @@
         }
       ],
       "base": "uakt",
-      "name": "Akash Network",
+      "name": "Akash Network ",
       "display": "akt",
-      "symbol": "AKT",
+      "symbol": "AKT-1",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
