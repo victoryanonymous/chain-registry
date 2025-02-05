@@ -53,7 +53,7 @@
           "exponent": 6
         }
       ],
-      "type_asset": "ics20",
+      "type_asset": "ics21",
       "base": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
       "name": "Cosmos Hub Atom",
       "display": "atom",
@@ -139,57 +139,6 @@
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
-      }
-    },
-    {
-      "denom_units": [
-        {
-          "denom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
-          "exponent": 0,
-          "aliases": [
-            "uist"
-          ]
-        },
-        {
-          "denom": "ist",
-          "exponent": 6
-        }
-      ],
-      "type_asset": "ics20",
-      "base": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
-      "name": "Agoric IST (Inter Stable Token)",
-      "display": "ist",
-      "symbol": "IST",
-      "traces": [
-        {
-          "type": "ibc",
-          "counterparty": {
-            "chain_name": "agoric",
-            "base_denom": "uist",
-            "channel_id": "channel-58"
-          },
-          "chain": {
-            "channel_id": "channel-30",
-            "path": "transfer/channel-30/uist"
-          }
-        }
-      ],
-      "images": [
-        {
-          "image_sync": {
-            "chain_name": "agoric",
-            "base_denom": "uist"
-          },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg",
-          "theme": {
-            "primary_color_hex": "#d485e2"
-          }
-        }
-      ],
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/ist.svg"
       }
     },
     {
