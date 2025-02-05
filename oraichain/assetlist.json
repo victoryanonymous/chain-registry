@@ -531,7 +531,6 @@
       "name": "scATOM",
       "display": "scatom",
       "symbol": "scATOM",
-      "coingecko_id": "scatom",
       "images": [
         {
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/scatom.png",
@@ -683,7 +682,9 @@
         {
           "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/ton",
           "exponent": 0,
-          "aliases": ["nanoTon"]
+          "aliases": [
+            "nanoTon"
+          ]
         },
         {
           "denom": "ton",
@@ -768,7 +769,9 @@
           }
         }
       ],
-      "keywords": ["meme"],
+      "keywords": [
+        "meme"
+      ],
       "type_asset": "sdk.coin"
     },
     {
@@ -777,7 +780,9 @@
         {
           "denom": "factory/orai1wuvhex9xqs3r539mvc6mtm7n20fcj3qr2m0y9khx6n5vtlngfzes3k0rq9/HMSTR",
           "exponent": 0,
-          "aliases": ["nanohmstr"]
+          "aliases": [
+            "nanohmstr"
+          ]
         },
         {
           "denom": "hmstr",
@@ -799,8 +804,8 @@
       "display": "hmstr",
       "symbol": "HMSTR",
       "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg"
       },
       "type_asset": "sdk.coin",
       "images": [
@@ -812,12 +817,40 @@
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.svg",
           "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ton/images/hmstr.png",
           "theme": {
-            "primary_color_hex": "#f4941c",
-            "background_color_hex": "#f4941c",
-            "circle": true
+            "circle": true,
+            "primary_color_hex": "#0088CC",
+            "background_color_hex": "#0088CC"
           }
         }
       ]
+    },
+    {
+      "description": "The SAM token is a native memecoin on Oraichain.",
+      "denom_units": [
+        {
+          "denom": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+          "exponent": 0
+        },
+        {
+          "denom": "sam",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "base": "factory/orai15rmny3cxv33rnzdr2lfdhjtslyzmrr0vdd28kp/SAM",
+      "name": "SAM",
+      "display": "sam",
+      "symbol": "SAM",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.svg"
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/sam.svg"
+      }
     }
   ]
 }
