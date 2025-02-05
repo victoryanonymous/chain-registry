@@ -53,9 +53,9 @@
           "exponent": 6
         }
       ],
-      "type_asset": "ics21",
+      "type_asset": "ics20",
       "base": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
-      "name": "Cosmos Hub Atom",
+      "name": "Cosmos Hub Atom-1",
       "display": "atom",
       "symbol": "ATOM",
       "traces": [
